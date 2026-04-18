@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* eslint-disable no-unused-vars */
+=======
+>>>>>>> 269d14a3f903540b733886958e2f2c42dccb62b2
 import React, { useState } from "react";
 import axios from "axios";
 import {
@@ -15,7 +18,11 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [chartType, setChartType] = useState("bar");
 
+<<<<<<< HEAD
   const BASE_URL = "https://ai-dashboard-backend-wa6t.onrender.com";
+=======
+  const BASE_URL = "http://localhost:5000";
+>>>>>>> 269d14a3f903540b733886958e2f2c42dccb62b2
 
   // ================= UPLOAD =================
   const handleUpload = async () => {
